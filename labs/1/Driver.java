@@ -20,6 +20,8 @@ import java.util.Scanner;
 public class Driver {
 
   /**
+   * This method converts a string into an array of integers which are mapped
+   * from (A - Z) or (a - z) to (0 - 25) with spaces mapped to 26.
    * @param s Input string
    * @return returns an array of integers mapped from character strings.
    */
