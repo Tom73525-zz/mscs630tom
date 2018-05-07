@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadEntry">
+
+    <include layout="@layout/content_read_entry" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/reading_area"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/colorPrimaryGreen"
+            android:fontFamily="cursive"
+            android:gravity="top"
+            android:textColor="@color/EntryGreen" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/EntryGreen"
+            android:text="Delete It" />
+
+        <Button
+            android:id="@+id/gobackbtn"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:background="@color/EntryGreen"
+            android:text="Keep It" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
